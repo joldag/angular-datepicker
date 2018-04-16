@@ -103,9 +103,7 @@ export class DayCalendarService {
       monthArray[weekIndex].push(day);
     });
 
-    if (!config.showNearMonthDays) {
-      monthArray = this.removeNearMonthWeeks(month, monthArray);
-    }
+    monthArray = this.removeNearMonthWeeks(month, monthArray);
 
     return monthArray;
   }

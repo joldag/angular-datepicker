@@ -1,0 +1,23 @@
+<div>
+
+  <dp-day-calendar id="myDaytimePicker"
+                  name="daytimePicker"
+                  #dateComponent
+                  #daytimePicker="ngModel"
+                  [(ngModel)]="date"
+                  (onChange)="log($event)"
+                  [displayDate]="displayDate"
+                  (open)="opened()"
+                  (close)="closed()"
+                  (onLeftNav)="onLeftNav($event)"
+                  (onRightNav)="onRightNav($event)"
+                  [disabled]="disabled"
+                  [minDate]="validationMinDate"
+                  [maxDate]="validationMaxDate"
+                  [required]="required"
+                  [config]="config"
+                  [theme]="'na-test'">
+  </dp-day-calendar>
+
+
+</div>

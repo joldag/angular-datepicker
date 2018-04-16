@@ -1,0 +1,28 @@
+dp-day-time-calendar {
+  display: block;
+  width: 500px;
+  position: relative;
+
+}
+
+dp-day-calendar {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+}
+
+dp-time-select {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+}
+
+
+
+.na-test dp-day-calendar .dp-day-calendar-container {
+  background-color: #106CC8;
+}
