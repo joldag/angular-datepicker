@@ -3,7 +3,7 @@
 [![Package Quality](http://npm.packagequality.com/shield/ng2-date-picker.svg)](http://packagequality.com/#?package=ng2-date-picker)
 
 # Date Picker
-This is an Angular date-picker which uses MomentJS as its dependency. It depends heavily on the work of [Vlad Ioffe](https://github.com/vlieo20/angular-datepicker).     
+This is an Angular date-picker which uses MomentJS as its dependency. It depends heavily on the work of [Vlad Ioffe](https://github.com/vlio20/angular-datepicker).     
 
 You might want to rely on Vlad's Work. He also has an impressing [DEMO](https://vlio20.github.io/angular-datepicker/)
 
