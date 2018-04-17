@@ -1,7 +1,7 @@
 {
-  "name": "ng2-date-picker",
-  "author": "Vlad Ioffe",
-  "version": "2.7.4",
+  "name": "nang-datepicker",
+  "author": "Jan-Hendrik Oldag",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
@@ -21,19 +21,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vlio20/angular-datepicker.git"
+    "url": "https://github.com/joldag/nang-datepicker.git"
   },
   "private": false,
   "keywords": [
-    "angular2",
-    "date",
+    "angular",
     "datepicker",
     "date-picker",
-    "ng2-datepicker",
-    "ng-datepicker",
-    "angular",
-    "picker",
-    "angular-datepicker"
+    "angular-datepicker",
+    "nang"
   ],
   "dependencies": {
     "moment": "^2.17.1",
