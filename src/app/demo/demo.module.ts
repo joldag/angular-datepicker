@@ -7,6 +7,7 @@ import {BrowserModule} from '@angular/platform-browser';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {DpDatePickerModule} from '../date-picker.module';
 import {GaService} from './services/ga/ga.service';
+import { DpTestComponent } from './dp-test/dp-test.component';
 
 @NgModule({
   imports: [
@@ -23,7 +24,8 @@ import {GaService} from './services/ga/ga.service';
   ],
   declarations: [
     DemoRootComponent,
-    DemoComponent
+    DemoComponent,
+    DpTestComponent
   ],
   entryComponents: [
     DatePickerComponent

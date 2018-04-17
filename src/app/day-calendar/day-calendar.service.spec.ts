@@ -140,9 +140,9 @@ describe('Service: Calendar', () => {
         showNearMonthDays: true
       };
 
-      expect(service.generateMonthArray(config, moment('27-03-2017', 'DD-MM-YYYY'), []).length).toBe(6);
+      expect(service.generateMonthArray(config, moment('27-09-2017', 'DD-MM-YYYY'), []).length).toBe(5);
       config.showNearMonthDays = false;
-      expect(service.generateMonthArray(config, moment('27-03-2017', 'DD-MM-YYYY'), []).length).toBe(5);
+      expect(service.generateMonthArray(config, moment('27-07-2017', 'DD-MM-YYYY'), []).length).toBe(6);
     }));
 
   it('should not effect the calendar when no full near weeks even if showNearMonthDays is false',
