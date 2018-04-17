@@ -3,41 +3,10 @@
 [![Package Quality](http://npm.packagequality.com/shield/ng2-date-picker.svg)](http://packagequality.com/#?package=ng2-date-picker)
 
 # Date Picker
-This is a configurable date-picker build for Angular2 applications and uses MomentJS as its dependency.   
-[DEMO](https://vlio20.github.io/angular-datepicker/)
+This is an Angular date-picker which uses MomentJS as its dependency. It depends heavily on the work of [Vlad Ioffe](https://github.com/vlieo20/angular-datepicker).     
 
-## Screenshots
+You might want to rely on Vlad's Work. He also has an impressing [DEMO](https://vlio20.github.io/angular-datepicker/)
 
-### DayTime:  
-![Imgur](https://i.imgur.com/NaOiqi7.png)
-
-### Day:
-![Imgur](https://i.imgur.com/XSyhhfv.png)
-
-### Month:  
-![Imgur](https://i.imgur.com/NIlPCx1.png)
-
-### Time:  
-![Imgur](https://i.imgur.com/y37UGkQ.png)
-
-## Installation:
-1. Download from npm:
-`npm install ng2-date-picker --save`  
-2. import the `DpDatePickerModule` module:  
- `import {DpDatePickerModule} from 'ng2-date-picker';`  
-3. Add `DpDatePickerModule` to your module imports:  
-```ts
- @NgModule({
-   ...
-   imports: [
-     ...
-     DpDatePickerModule
-   ]
- })
-```
-
-## Usage
-Put the dp-date-picker component wherever you need it.
 
 
 ### Attributes (Input):  
