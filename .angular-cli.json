@@ -19,7 +19,8 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "dp",
       "styles": [
-        "styles.less"
+        "styles.less",
+        "assets/style.css"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
